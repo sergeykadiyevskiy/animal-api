@@ -1,5 +1,5 @@
-import "./App.css";
 import React from "react";
+import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Animals from "./components/Animals";
 import Home from "./components/Home";

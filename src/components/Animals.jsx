@@ -4,8 +4,8 @@ import HomeButton from "../assets/home-button.png";
 import axios from "axios";
 
 const Animals = () => {
-  const [items, setItems] = React.useState([]);
   const candidateId = "?candidateID=facf61ea-881c-4ee8-82f0-a0463bd5a6f5";
+  const [items, setItems] = React.useState([]);
 
   React.useEffect(() => {
     axios({
